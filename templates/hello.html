@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Taschenrechner</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="hello">
+    <style>.hello{background-image: url(assets/img/calculator.jpeg);}</style>
+    <div class="hellocontent">
+    <h1>Taschenrechner</h1>
+ <form method="post" action="/ergebnis">
+        <input class=fm2 type="number" name="first-num" required>
+
+        <select class=fm2 name="operation">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+
+        <input class=fm2 type="number" name="second-num" required> = <button class=btn2 type="submit">Ergebnis zeigen!</button>
+</form>
+    </div>
+</div>
+</body>
+</html>
